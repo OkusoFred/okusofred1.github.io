@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
-    <h1> Лабораторная работа №4 </h1>
+    <title> Лабораторная работа №4 </title>
 </head>
 
 <body>
