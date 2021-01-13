@@ -64,6 +64,4 @@
     <button onclick="WindowBlur()">Свернуть окно</button>    
     <h2>
     </h2>
-    
-    </body>
 </html>
