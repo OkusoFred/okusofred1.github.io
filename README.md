@@ -64,36 +64,6 @@
     <button onclick="WindowBlur()">Свернуть окно</button>    
     <h2>
     </h2>
-    <script src="script2.js"></script>
-    <button onclick="createArray()">Создать матрицу</button>
-    <button onclick="sortArray()">Сортировать матрицу</button>
-    <button onclick="printArray()">Вывести матрицу</button>   
-    <h2>
-    </h2>
-    <input id="num1" name="num1"><label for="num1">X1</label>
-    <input id="num2" name="num2"><label for="num2">X2</label>
-    <input id="num3" name="num3"><label for="num3">X3</label>
-    <label for="=">=</label><input id="num=1" name="=">
-    <br>
-    <input id="num4" name="num4"><label for="num4">X1</label>
-    <input id="num5" name="num5"><label for="num5">X2</label>
-    <input id="num6" name="num6"><label for="num6">X3</label>
-    <label for="=">=</label><input id="num=2" name="=">
-    <br>
-    <input id="num7" name="num7"><label for="num7">X1</label>
-    <input id="num8" name="num8"><label for="num8">X2</label>
-    <input id="num9" name="num9"><label for="num9">X3</label>
-    <label for="=">=</label><input id="num=3" name="=">
-    <br>
-    <script src="script.js"></script>
-    <button onclick="generate()">Сгенерировать коэффициенты:</button>
-    <br>
-    <label for="x1">X1</label><input id="x1" name="x1">
-    <br>
-    <label for="x2">X2</label><input id="x2" name="x2">
-    <br>
-    <label for="x3">X3</label><input id="x3" name="x3">
-    <br>
-    <button onclick="decision()">Решение системы</button>
+    
     </body>
 </html>
