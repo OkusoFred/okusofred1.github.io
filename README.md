@@ -23,10 +23,8 @@
             navig += "<br />";
         }
         document.getElementById("navig").innerHTML = navig;
-
     </script>
-    
-    <h2>document:</h2>
+        <h2>document:</h2>
     <div id="document" class="alert alert-waring"></div>
     <script>
         var document = "";
@@ -35,10 +33,8 @@
             document += "<br />";
         }
         document.getElementById("document").innerHTML = document;
-
     </script>
-    
-    <h2>location:</h2>
+        <h2>location:</h2>
     <div id="propertiesLocation" class="alert alert-warning"></div>
     <script>
         var stringPropertiesLocation = "";
@@ -49,30 +45,23 @@
             stringPropertiesLocation += "<br><br>";
         }
         document.getElementById("propertiesLocation").innerHTML = stringPropertiesLocation;
-
     </script>
-
     <h2>window:</h2>
     <script>
         var Window;
         function WindowOpen() {
             Window = window.open("", "", "width=500,height=500");
         }
-
         function WindowFocus() {
             Window.focus();
         }
-
         function myWindowBlur() {
             Window.blur();
         }
-
     </script>
-
     <button onclick="WindowOpen()">Открыть окно</button>
     <button onclick="WindowFocus()">Развернуть окно</button>
-    <button onclick="WindowBlur()">Свернуть окно</button>
-    
+    <button onclick="WindowBlur()">Свернуть окно</button>    
     <h2>
     </h2>
     <script src="script2.js"></script>
@@ -106,7 +95,5 @@
     <label for="x3">X3</label><input id="x3" name="x3">
     <br>
     <button onclick="decision()">Решение системы</button>
-    
-</body>
-
+    </body>
 </html>
